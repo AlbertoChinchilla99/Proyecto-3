@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+header > h1 {
+  background-color: var(--logo);
+  width: 30px;
+  height: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 50%;
+  color: var(--color-background);
+  cursor: pointer;
+}
+h1:hover {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+header input {
+  padding: 1rem 1.4rem;
+  border-radius: 2rem;
+  flex-grow: 1;
+  background-color: var(--secondary);
+  border: none;
+  font-size: 1rem;
+}
+
+header button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height: 28px;
+  width: 28px;
+}
+
+header button:hover {
+  background-color: var(--secondary);
+}
+
+header .icon {
+  filter: contrast(30%);
+}
+
+header .profileimg {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  header input {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+  }
+  header input::placeholder {
+    color: transparent;
+    opacity: 1; /* Asegura que el placeholder no tenga transparencia */
+  }
+}
