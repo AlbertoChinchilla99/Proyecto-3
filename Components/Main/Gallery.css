@@ -135,6 +135,16 @@
   grid-column: span 2;
 }
 
+#notification {
+  display: none; /* Ocultamos el contenedor por defecto */
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
 @media screen and (min-width: 576px) {
   .gallery {
     grid-template-columns: repeat(1, fr);

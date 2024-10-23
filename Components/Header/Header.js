@@ -7,9 +7,9 @@ const headerTemplate = () => {
     <header>
       <h1 class="logo">I</h1>
       <input type="text" placeholder="Search" id="searchinput" />
-      <button id="searchbtn"><img src="/public/icons/search.png" alt="Search icon" /></button>
-      <button id="darkmodebtn"><img src="/public/icons/dark.png" alt="Dark mode icon" id="darkmodeicon"></button>
-      <img src="/public/icons/usuario.png" alt="Profile image" class="profileimg" />
+      <button id="searchbtn"><img src="/icons/search.png" alt="Search icon" /></button>
+      <button id="darkmodebtn"><img src="/icons/dark.png" alt="Dark mode icon" id="darkmodeicon"></button>
+      <img src="/icons/usuario.png" alt="Profile image" class="profileimg" />
     </header>
   `
 }
