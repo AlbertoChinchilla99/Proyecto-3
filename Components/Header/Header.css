@@ -3,9 +3,9 @@ header {
   height: 15vh;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 10px;
   gap: 1.5rem;
-  width: 100%;
+  width: calc(100% - 10px);
 }
 
 header > h1 {
@@ -69,7 +69,7 @@ header .profileimg {
     padding: 1rem 1.4rem;
     border-radius: 2rem;
     font-size: 1rem;
-    width: 100%;
+    width: calc(100% - 40px);
 
     min-width: 130px;
   }
